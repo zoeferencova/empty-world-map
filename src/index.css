@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.land {
+  fill: #81ad7f;
+}
+
+.interiors {
+  fill: none;
+  stroke: #dfedf0;
+}
+
+.sphere {
+  fill: #dfedf0;
+}
+
+.graticules {
+  fill: none;
+  stroke: #c5dde2;
+}

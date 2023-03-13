@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useData } from './hooks/useData'
+import { Marks } from './components/Marks'
 
-function App() {
+const width = 960;
+const height = 500;
+
+export const App = () => {
+  const data = useData();
+
+  if (!data) {
+    return <pre>"Loading..."</pre>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <svg width={width} height={height}>
+      <g>
+        <Marks
+          data={data}
+        />
+      </g>
+    </svg>
   );
-}
-
-export default App;
+};

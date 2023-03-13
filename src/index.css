@@ -13,19 +13,24 @@ code {
 }
 
 .land {
-  fill: #81ad7f;
+  fill: #c6d7c6;
 }
 
 .interiors {
   fill: none;
-  stroke: #dfedf0;
+  stroke: #edf2f4;
 }
 
 .sphere {
-  fill: #dfedf0;
+  fill: #edf2f4;
 }
 
 .graticules {
   fill: none;
-  stroke: #c5dde2;
+  stroke: #d7e6e9;
+}
+
+circle {
+  fill: #bb362c;
+  opacity: 0.3;
 }

@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/points-on-map/static/css/main.92354053.css",
-    "main.js": "/points-on-map/static/js/main.c969a491.js",
+    "main.css": "/points-on-map/static/css/main.d4874cc5.css",
+    "main.js": "/points-on-map/static/js/main.87ed6cf8.js",
     "static/js/787.cc48b073.chunk.js": "/points-on-map/static/js/787.cc48b073.chunk.js",
+    "static/media/github.svg": "/points-on-map/static/media/github.c21dc2c952a96175dc43.svg",
     "index.html": "/points-on-map/index.html",
-    "main.92354053.css.map": "/points-on-map/static/css/main.92354053.css.map",
-    "main.c969a491.js.map": "/points-on-map/static/js/main.c969a491.js.map",
+    "static/media/table-regular.svg": "/points-on-map/static/media/table-regular.a7f1b37329496e519047.svg",
+    "main.d4874cc5.css.map": "/points-on-map/static/css/main.d4874cc5.css.map",
+    "main.87ed6cf8.js.map": "/points-on-map/static/js/main.87ed6cf8.js.map",
     "787.cc48b073.chunk.js.map": "/points-on-map/static/js/787.cc48b073.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92354053.css",
-    "static/js/main.c969a491.js"
+    "static/css/main.d4874cc5.css",
+    "static/js/main.87ed6cf8.js"
   ]
 }
